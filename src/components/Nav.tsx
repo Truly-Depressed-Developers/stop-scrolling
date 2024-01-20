@@ -10,7 +10,7 @@ const Nav = () => {
     const color = "#F87171";
 
     return (
-        <div className="absolute bottom-0 w-full">
+        <div className="w-full">
             <div className="mx-auto mb-1 flex w-11/12 justify-evenly rounded-lg border py-2 shadow-md">
                 <Link href={"/streak"}>
                     <svg
