@@ -61,13 +61,12 @@ const Chat = () => {
                 <div className="flex items-center space-x-4">
                     <Avatar>
                         <AvatarImage src="" />
-                        <AvatarFallback>PS</AvatarFallback>
+                        <AvatarFallback>JK</AvatarFallback>
                     </Avatar>
-                    <h1 className="text-2xl font-extrabold">Psycholog</h1>
+                    <h1 className="text-2xl font-extrabold">mgr Jan Kowalski</h1>
                 </div>
                 <p>
-                    Od 10 lat zajmuje się pomocą osobom uzależnionym od
-                    telefonów
+                    Od 10 lat zajmuje się pomocą osobom uzależnionym od telefonów
                 </p>
             </div>
             <Separator className="my-4" />
