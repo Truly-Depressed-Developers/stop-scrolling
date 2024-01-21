@@ -9,7 +9,7 @@ const Category = (props: { heading: string; link: string }) => {
             <h1 className="text-center text-3xl font-semibold text-primary">
                 {props.heading}
             </h1>
-            <Link href={`"/profile/${props.link}"`} className="flex w-full">
+            <Link href={`/profile/${props.link}`} className="flex w-full">
                 <Button className="mx-4 w-full bg-primary py-6 text-xl">
                     Zobacz
                 </Button>
