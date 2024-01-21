@@ -12,7 +12,7 @@ const Nav = () => {
 
     return (
         <div className="w-full">
-            <div className="bg-primary mx-auto mb-2 flex w-11/12 justify-evenly rounded-lg py-2 shadow-md">
+            <div className="mx-auto mb-2 flex w-11/12 justify-evenly rounded-lg bg-primary py-2 shadow-md">
                 <Link href={"/streak"}>
                     <svg
                         width="36"
@@ -26,9 +26,9 @@ const Nav = () => {
                             stroke={
                                 pathname === "/streak" ? selectedColor : color
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                     </svg>
                 </Link>
@@ -47,9 +47,9 @@ const Nav = () => {
                                     ? selectedColor
                                     : "#c8cdff"
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                         <path
                             d="M22 12C22 10.6868 21.7413 9.38642 21.2388 8.17317C20.7362 6.95991 19.9997 5.85752 19.0711 4.92893C18.1425 4.00035 17.0401 3.26375 15.8268 2.7612C14.6136 2.25866 13.3132 2 12 2V12H22Z"
@@ -58,9 +58,9 @@ const Nav = () => {
                                     ? selectedColor
                                     : "#c8cdff"
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                     </svg>
                 </Link>
@@ -77,18 +77,18 @@ const Nav = () => {
                             stroke={
                                 pathname === "/" ? selectedColor : "#c8cdff"
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                         <path
                             d="M9 22V12H15V22"
                             stroke={
                                 pathname === "/" ? selectedColor : "#c8cdff"
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                     </svg>
                 </Link>
@@ -105,9 +105,9 @@ const Nav = () => {
                             stroke={
                                 pathname === "/chat" ? selectedColor : "#c8cdff"
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                     </svg>
                 </Link>
@@ -126,9 +126,9 @@ const Nav = () => {
                                     ? selectedColor
                                     : "#c8cdff"
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                         <path
                             d="M3.05 13.0001C3.27151 15.0059 4.1607 16.8791 5.57478 18.3188C6.98886 19.7585 8.84577 20.6812 10.8473 20.9387C12.8488 21.1961 14.8788 20.7735 16.6112 19.7386C18.3436 18.7036 19.678 17.1165 20.3999 15.2321C21.1219 13.3476 21.1896 11.2752 20.5921 9.34766C19.9947 7.42012 18.7668 5.7493 17.1056 4.60353C15.4444 3.45776 13.4463 2.90354 11.4322 3.02987C9.41817 3.15619 7.50501 3.95574 6 5.30009L3 8.00009"
@@ -137,9 +137,9 @@ const Nav = () => {
                                     ? selectedColor
                                     : "#c8cdff"
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                         <path
                             d="M12 7V12L16 14"
@@ -148,9 +148,9 @@ const Nav = () => {
                                     ? selectedColor
                                     : "#c8cdff"
                             }
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
+                            strokeWidth="2"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
                         />
                     </svg>
                 </Link>

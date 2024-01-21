@@ -34,7 +34,8 @@ const config = {
       },
       colors: {
         "primary": "#464d77",
-        "secondary": "#f2f2f2",
+        "secondary": "#c8cdff",
+        "tertiary": "#f1f1e6",
         "accent": "#d0a616"
       }
     },
