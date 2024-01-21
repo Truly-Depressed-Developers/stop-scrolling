@@ -42,12 +42,12 @@ const Streak = () => {
                     ref={achievementRef}
                     className="mx-2 flex max-h-[77vh] grow flex-col overflow-y-scroll"
                 >
-                    <div className="absolute left-0 top-[10%] z-10 aspect-square w-screen bg-gradient-to-b from-white to-transparent pointer-events-none" />
-                    {[...Array(12)].map((_, i) => (
+                    <div className="absolute left-0 top-[10%] z-10 aspect-square w-screen bg-gradient-to-b from-white to-transparent" />
+                    {[...Array(20)].map((_, i) => (
                         <Achievement
                             key={i}
-                            number={180 - i * 15}
-                            toCollected={180 - i * 15 < streak ? true : false}
+                            number={300 - i * 15}
+                            toCollected={300 - i * 15 < streak ? true : false}
                         />
                     ))}
                 </div>
