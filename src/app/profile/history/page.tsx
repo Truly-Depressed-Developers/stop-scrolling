@@ -15,21 +15,24 @@ const HistoryComponent = ({
         <>
             <div
                 className={cn(
-                    "relative flex w-full flex-col space-y-2 rounded-b-3xl p-6 after:absolute after:inset-0 after:-z-10 after:h-full after:w-full after:content-['']",
+                    "relative flex w-full flex-col rounded-b-3xl p-6 after:absolute after:inset-0 after:-z-10 after:h-full after:w-full after:content-['']",
                     desc !== undefined
                         ? "bg-secondary after:bg-tertiary"
                         : "bg-tertiary after:bg-secondary",
                 )}
             >
-                <h2 className="font-semibold text-primary">{date}</h2>
-                <h1 className="text-center text-2xl font-semibold text-primary">
-                    {heading}
-                </h1>
-                {desc && (
-                    <p className="text-center text-xl font-semibold text-primary">
-                        {desc}
-                    </p>
-                )}
+                <div className='space-y-2'>
+                    <h2 className="font-semibold text-primary">{date}</h2>
+                    <h1 className="text-center text-2xl font-semibold text-primary">
+                        {heading}
+                    </h1>
+                    {desc && (
+                        <p className="text-center text-xl font-semibold text-primary">
+                            {desc}
+                        </p>
+                    )}
+                </div>
+                <div className='absolute inset-0 z-20 h-full w-full shadow rounded-b-3xl'></div>
             </div>
         </>
     );
