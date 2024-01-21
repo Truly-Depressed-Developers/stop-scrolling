@@ -30,7 +30,7 @@ const GameTask = (props: { src: string; name: string }) => {
 
 export default function Home() {
     return (
-        <div className="">
+        <div>
             <Header className="flex justify-center">
                 <h1 className="text-xl">Wybierz Swoje Dzienne Zadanie</h1>
             </Header>
