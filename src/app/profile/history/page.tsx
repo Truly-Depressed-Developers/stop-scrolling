@@ -32,7 +32,7 @@ const HistoryComponent = ({
                         </p>
                     )}
                 </div>
-                <div className='absolute inset-0 z-20 h-full w-full shadow rounded-b-3xl'></div>
+                <div className="absolute left-0 right-0 bottom-0 top-[-2000px] z-20 shadow rounded-b-3xl"></div>
             </div>
         </>
     );
