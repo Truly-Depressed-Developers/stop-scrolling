@@ -11,7 +11,7 @@ const Header = ({
     return (
         <div
             className={cn(
-                "bg-primary mb-1 flex justify-between rounded-b-2xl p-10 text-2xl font-semibold text-white shadow-xl",
+                "z-50 flex w-screen justify-between rounded-b-2xl bg-primary p-10 text-2xl font-semibold text-white shadow-xl",
                 className,
             )}
         >

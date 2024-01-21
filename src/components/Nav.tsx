@@ -12,7 +12,7 @@ const Nav = () => {
 
     return (
         <div className="w-full">
-            <div className="bg-primary mx-auto mb-2 flex w-11/12 justify-evenly rounded-lg py-2 shadow-md">
+            <div className="mx-auto mb-2 flex w-11/12 justify-evenly rounded-lg bg-primary py-2 shadow-md">
                 <Link href={"/streak"}>
                     <svg
                         width="36"
