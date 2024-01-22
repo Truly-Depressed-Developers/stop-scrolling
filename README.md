@@ -19,10 +19,35 @@ Stop Scrolling was created at [BITEHack](https://bitehack.best.krakow.pl/) Hacka
 <img src="https://img.shields.io/badge/shadcn/ui-000000?style=for-the-badge&logo=shadcnui&logoColor=61DAFB"/>
 <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB"/>
 
+## Installation
+
+
+Clone this repo on your local machine
+```
+git clone https://github.com/Truly-Depressed-Developers/stop-scrolling.git
+cd stop-scrolling
+```
+
+Install node modules
+```
+npm install
+```
+
+Start live server
+```
+npm run dev
+```
+
+App will be available at [localhost:3000](http://localhost:3000).
+
+App was designed and will display correctly only on iPhone 14 Plus - add custom device 428x926 in browser DevTools
+
 ## Screenshots
 
-<img src="./screenshots/1234.png">
-<img src="./screenshots/5678.png">
+[Presentation](media/Stop%20Scrolling.pptx)
+
+<img src="media/1234.png">
+<img src="media/5678.png">
 
 ## Authors
 
